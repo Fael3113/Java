@@ -38,7 +38,7 @@ public class LinkController {
 		try {
 			Link link = linkService.obterUrlOriginal(urlEncurtada);
 
-			if (link != null && link.getUrlOriginal() != null) {
+			if (link != null) {
 				response.sendRedirect(link.getUrlOriginal());
 			} else {
 				response.sendError(HttpServletResponse.SC_NOT_FOUND, "URL encurtada não encontrada.");

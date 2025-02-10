@@ -8,8 +8,6 @@ import java.time.LocalDateTime;
 @Table(name = "Links_encurtados")
 public class Link {
 
-	//Funcionando de forma local (sites encurtados não funcionam)
-
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 
