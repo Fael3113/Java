@@ -58,4 +58,5 @@ public class Link {
 	public void setId(Long id) {
 		this.id = id;
 	}
+
 }

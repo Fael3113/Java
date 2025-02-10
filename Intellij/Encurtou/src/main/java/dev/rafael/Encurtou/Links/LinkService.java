@@ -35,6 +35,5 @@ public class LinkService {
 		}catch (Exception erro){
 			throw new RuntimeException("Url não existe no banco de dados", erro);
 		}
-
 	}
 }
