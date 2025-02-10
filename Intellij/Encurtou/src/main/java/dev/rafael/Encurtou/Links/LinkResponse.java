@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 
 public class LinkResponse {
 
+	//Aqui são os itens que serão apresentados no Body do postman
+
 	private Long id;
 	private String urlOriginal;
 	private String urlEncurtada;

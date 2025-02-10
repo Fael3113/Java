@@ -11,7 +11,7 @@ import java.util.Map;
 @RestController
 public class LinkController {
 
-	private final LinkService linkService;
+	private LinkService linkService;
 
 	public LinkController(LinkService linkService){
 		this.linkService = linkService;
